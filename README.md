@@ -19,7 +19,7 @@ Configuração realizada: criação de um projeto em nest.js na máquina local e
 
 O Banco de Dados “todo_list” foi criado com a tabela “Task”. Uma tarefa (task) contém: um ID auto incrementado ao ser criado, que também é a primary key; um título; uma descrição; e um booleano para saber se a tarefa foi completa ou não. Abaixo podemos ver que a lista de tarefas está vazia por enquanto.
 
-<img src="https://github.com/user-attachments/assets/a38e0174-cb87-4adf-9406-ee7161968260" height="200">
+<img src="https://github.com/user-attachments/assets/a38e0174-cb87-4adf-9406-ee7161968260" height="70">
 
 
 ### 2. Desenvolver uma aplicação cliente que se conecte ao banco de dados e realize operações básicas (CRUD): aplicação cliente em Nest.JS com os códigos abaixo.
