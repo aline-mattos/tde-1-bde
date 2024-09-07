@@ -15,7 +15,8 @@ Configuração realizada: criação de um projeto em nest.js na máquina local e
 
 ### 1. Configurar o servidor de banco de dados em uma máquina virtual ou servidor local: Banco de dados MySQL.
 
-![image (1)](https://github.com/user-attachments/assets/799607d9-9dda-4189-a0c8-a0a6462d2e16)
+<img src="https://github.com/user-attachments/assets/799607d9-9dda-4189-a0c8-a0a6462d2e16" height="500">
+
 
 O Banco de Dados “todo_list” foi criado com a tabela “Task”. Uma tarefa (task) contém: um ID auto incrementado ao ser criado, que também é a primary key; um título; uma descrição; e um booleano para saber se a tarefa foi completa ou não. Abaixo podemos ver que a lista de tarefas está vazia por enquanto.
 ![image (2)](https://github.com/user-attachments/assets/a38e0174-cb87-4adf-9406-ee7161968260)
