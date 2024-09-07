@@ -23,7 +23,8 @@ O Banco de Dados “todo_list” foi criado com a tabela “Task”. Uma tarefa 
 ### 2. Desenvolver uma aplicação cliente que se conecte ao banco de dados e realize operações básicas (CRUD): aplicação cliente em Nest.JS com os códigos abaixo.
 
 A aplicação foi criada com o projeto intitulado “projeto-crud” no VS Code.
-<img src="https://github.com/user-attachments/assets/10803433-922c-4657-a4b3-8a935f2465b2" height="300">
+
+<img src="https://github.com/user-attachments/assets/10803433-922c-4657-a4b3-8a935f2465b2" height="500">
 
 A pasta “tasks”foi criada e, dentro dela, outros arquivos para criar as tarefas e lidar com o CRUD no back end. Como a entidade de “task”, o controller, o service e os DTOs (Data Transfer Object).
 
