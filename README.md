@@ -17,11 +17,16 @@ Configuração realizada: criação de um projeto em nest.js na máquina local e
 
 ![image (1)](https://github.com/user-attachments/assets/799607d9-9dda-4189-a0c8-a0a6462d2e16)
 
-<img src="https://github.com/user-attachments/assets/799607d9-9dda-4189-a0c8-a0a6462d2e16" alt="Descrição da imagem" width="900" height="500">
-
 O Banco de Dados “todo_list” foi criado com a tabela “Task”. Uma tarefa (task) contém: um ID auto incrementado ao ser criado, que também é a primary key; um título; uma descrição; e um booleano para saber se a tarefa foi completa ou não. Abaixo podemos ver que a lista de tarefas está vazia por enquanto.
 ![image (2)](https://github.com/user-attachments/assets/a38e0174-cb87-4adf-9406-ee7161968260)
 
+### 2. Desenvolver uma aplicação cliente que se conecte ao banco de dados e realize operações básicas (CRUD): aplicação cliente em Nest.JS com os códigos abaixo.
+
+A aplicação foi criada com o projeto intitulado “projeto-crud” no VS Code.
+![image (3)](https://github.com/user-attachments/assets/10803433-922c-4657-a4b3-8a935f2465b2)
+A pasta “tasks”foi criada e, dentro dela, outros arquivos para criar as tarefas e lidar com o CRUD no back end. Como a entidade de “task”, o controller, o service e os DTOs (Data Transfer Object).
+
+#### Arquivos relacionados à tarefa:
 
 ```bash
 $ npm install
