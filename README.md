@@ -171,11 +171,39 @@ export class UpdateTaskDto {
   }
 ```
 
+![image (4)](https://github.com/user-attachments/assets/3dff52b7-260a-46b8-a5bd-45314550b7a5)
+Acima, o projeto rodando.
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+### 3. Implementar a comunicação entre cliente e servidor usando SQL para interagir com o banco de dados.
+
+Em src no projeto temos “app.modules.ts”que é onde a conexão com o banco de dados foi criada.
+
+##### projeto-crud\src\app.module.ts
+
+```bash
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { Task } from './tasks/task.entity'; // Ajuste o caminho conforme necessário
+import { TasksModule } from './tasks/task.module';
+
+@Module({
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'mysql',
+      host: 'localhost',
+      port: 3306,
+      username: 'root',
+      password: 'senha1234',
+      database: 'todo_list',
+      entities: [Task],
+      synchronize: true,
+      logging: true,
+    }),
+    TasksModule,
+  ],
+})
+export class AppModule {}
+```
+
+## Demonstração Funcional:
+
