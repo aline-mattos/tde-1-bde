@@ -206,4 +206,31 @@ export class AppModule {}
 ```
 
 ## Demonstração Funcional:
+Nos próximos passos, com auxílio do Postman, vamos ver a comunicação entre cliente-servidor funcionando para que possamos executar as ações de CRUD.
+
+#### 1. Primeiramente, logo após criado, não temos nada ainda no banco de dados:
+![image (6)](https://github.com/user-attachments/assets/5467bf49-5afb-454f-af53-23dfcb9ff7d0)
+
+#### 2. Agora, vamos adicionar (POST) tarefas utilizando o Postman:
+<img src="[https://github.com/user-attachments/assets/10803433-922c-4657-a4b3-8a935f2465b](https://github.com/user-attachments/assets/d2519967-94e9-4305-85c9-6d59802d0fae)2" height="500">
+
+#### 3. Podemos ver, fazendo um select no banco de dados, que funcionou:
+
+![image (7)](https://github.com/user-attachments/assets/69a9f9c1-76ab-4bd9-b8d3-f6647cef0e0d)
+
+#### 4. Vamos criar mais algumas tarefas… Foram criadas mais duas tarefas, que podemos ver (GET) na imagem abaixo:
+![image (8)](https://github.com/user-attachments/assets/6241e94d-68c1-451e-b452-9995303900e0)
+![image (9)](https://github.com/user-attachments/assets/267b841f-f235-4cb8-b2f3-25795fb150e7)
+
+#### 5. Agora, vamos atualizar a tarefa “TDE Banco de dados” pois já foi completada, para isso vamos fazer um UPDATE (utilizando POST):
+![image (10)](https://github.com/user-attachments/assets/392e3af1-db06-4174-99ac-a62f429f088b)
+![image (11)](https://github.com/user-attachments/assets/35179083-3567-46fd-b122-15e3fe9ebc84)
+
+#### 6. Agora, vamos remover a tarefa “Comprar esmalte”, pois não vai mais ser feita:
+![image (12)](https://github.com/user-attachments/assets/045230ca-99f3-4949-9fbf-88e0b29b3b27)
+
+#### 7. E assim fica o banco de dados por último:
+![image (13)](https://github.com/user-attachments/assets/e2d2cde3-de42-43db-8284-fad9be91cf0a)
+
+
 
