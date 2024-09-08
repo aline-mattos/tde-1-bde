@@ -209,10 +209,11 @@ export class AppModule {}
 Nos próximos passos, com auxílio do Postman, vamos ver a comunicação entre cliente-servidor funcionando para que possamos executar as ações de CRUD.
 
 #### 1. Primeiramente, logo após criado, não temos nada ainda no banco de dados:
-![image (6)](https://github.com/user-attachments/assets/5467bf49-5afb-454f-af53-23dfcb9ff7d0)
+
+<img src="https://github.com/user-attachments/assets/5467bf49-5afb-454f-af53-23dfcb9ff7d0" height="500">
 
 #### 2. Agora, vamos adicionar (POST) tarefas utilizando o Postman:
-<img src="[https://github.com/user-attachments/assets/10803433-922c-4657-a4b3-8a935f2465b](https://github.com/user-attachments/assets/d2519967-94e9-4305-85c9-6d59802d0fae)2" height="500">
+<img src="https://github.com/user-attachments/assets/d2519967-94e9-4305-85c9-6d59802d0fae">
 
 #### 3. Podemos ver, fazendo um select no banco de dados, que funcionou:
 
