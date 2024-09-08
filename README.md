@@ -210,14 +210,14 @@ Nos próximos passos, com auxílio do Postman, vamos ver a comunicação entre c
 
 #### 1. Primeiramente, logo após criado, não temos nada ainda no banco de dados:
 
-<img src="https://github.com/user-attachments/assets/5467bf49-5afb-454f-af53-23dfcb9ff7d0" height="500">
+<img src="https://github.com/user-attachments/assets/5467bf49-5afb-454f-af53-23dfcb9ff7d0" height="400">
 
 #### 2. Agora, vamos adicionar (POST) tarefas utilizando o Postman:
 <img src="https://github.com/user-attachments/assets/d2519967-94e9-4305-85c9-6d59802d0fae">
 
 #### 3. Podemos ver, fazendo um select no banco de dados, que funcionou:
 
-![image (7)](https://github.com/user-attachments/assets/69a9f9c1-76ab-4bd9-b8d3-f6647cef0e0d)
+<img src="https://github.com/user-attachments/assets/69a9f9c1-76ab-4bd9-b8d3-f6647cef0e0d" height="400">
 
 #### 4. Vamos criar mais algumas tarefas… Foram criadas mais duas tarefas, que podemos ver (GET) na imagem abaixo:
 ![image (8)](https://github.com/user-attachments/assets/6241e94d-68c1-451e-b452-9995303900e0)
